@@ -5,7 +5,6 @@ use aoc_utils::fetch_puzzle_input;
 
 fn main() -> anyhow::Result<()> {
     let puzzle_input = fetch_puzzle_input(5)?;
-    let start = std::time::Instant::now();
     println!("part1={}", part1(&puzzle_input)?);
     println!("part2={}", part2(&puzzle_input)?);
     Ok(())
